@@ -1,0 +1,15 @@
+Test
+
+   public void testMax() {
+
+      int[] date = { 10, -1, 2, 3, 4, -6, -5 };
+
+      int realResult = 18;
+
+      MaxGroup mg = new MaxGroup();
+
+      int result = mg.getMaxGroup(date);
+
+      assertEquals(realResult, result);
+
+   }
